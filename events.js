@@ -16,7 +16,7 @@ function button1_Clicked(){
   var s = today.getSeconds();
   // m = checkTime(m);
   // s = checkTime(s);
-  text1 += h + ":" + m + ":" + s + " 停 " + textBox1.value() + '\r\n';
+  text1 += h + ":" + m + ":" + s + " 停 " + textBox1.value() + ' ' + textBox2.value() + '\r\n';
 }
 
 function button2_Clicked(){
@@ -24,7 +24,7 @@ function button2_Clicked(){
   var h = today.getHours();
   var m = today.getMinutes();
   var s = today.getSeconds();
-  text1 += h + ":" + m + ":" + s + " 開 " + textBox1.value() + '\r\n';
+  text1 += h + ":" + m + ":" + s + " 開 " + textBox1.value() + ' ' + textBox2.value() + '\r\n';
 }
 
 function button3_Clicked(){
@@ -32,7 +32,7 @@ function button3_Clicked(){
   var h = today.getHours();
   var m = today.getMinutes();
   var s = today.getSeconds();
-  text1 += h + ":" + m + ":" + s + " 過 " + textBox1.value() + '\r\n';
+  text1 += h + ":" + m + ":" + s + " 過 " + textBox1.value() + ' ' + textBox2.value() + '\r\n';
 }
 
 function button4_Clicked(){
@@ -40,7 +40,7 @@ function button4_Clicked(){
   var h = today.getHours();
   var m = today.getMinutes();
   var s = today.getSeconds();
-  text1 += h + ":" + m + ":" + s + " miss " + textBox1.value() + '\r\n';
+  text1 += h + ":" + m + ":" + s + " miss " + textBox1.value() + ' ' + textBox2.value() + '\r\n';
 }
 
 function button5_Clicked(){

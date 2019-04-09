@@ -35,6 +35,7 @@ function setup(){
 
   label1 = createElement('label', 'Station name: ');
   label1.parent(document.body);
+
   textBox1 = createInput('');
 
   createP('');
@@ -60,6 +61,13 @@ function setup(){
   button4.size(140, 140);
   button4.style('font-size', '40px');
   button4.mousePressed(button4_Clicked);
+
+  createP('');
+
+  label2 = createElement('label', '備註: ');
+  label2.parent(document.body);
+
+  textBox2 = createInput('');
 
   createP('');
 
